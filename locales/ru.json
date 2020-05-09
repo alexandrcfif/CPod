@@ -1,0 +1,203 @@
+{
+  "__locale_name__": "Русский",
+
+  "punc_listing_comma": ", ",
+  "punc_quote_open": "‘",
+  "punc_quote_close": "’",
+
+  "filters_length_any": "Любая продолжительность",
+  "filters_length_60": "<1 час",
+  "filters_length_30": "<30 мин",
+  "filters_length_20": "<20 мин",
+  "filters_length_15": "<15 мин",
+  "filters_length_10": "<10 мин",
+  "filters_length_5": "<5 мин",
+
+  "filters_date_any": "Любая",
+  "filters_date_31": "Последний месяц",
+  "filters_date_7": "Последняя неделя",
+  "filters_date_1": "Последние сутки",
+
+  "filters_offline_any": "Все",
+  "filters_offline_true": "Только загруженные",
+
+  "filters_progress_any": "Все",
+  "filters_progress_unplayed": "Непрослушанные",
+  "filters_progress_partial": "Начатые",
+  "filters_progress_finished": "Прослушанные",
+
+  "section_heading_home": "Домашняя страница",
+  "section_heading_queue": "Очередь воспроизведения",
+  "section_heading_subscriptions": "Подписки",
+  "section_heading_explore": "Найти новые подкасты",
+  "section_heading_settings": "Настройки",
+
+  "settings_button_export-opml": "Экспорт подписок в OPML",
+  "settings_button_import-opml": "Импорт подписок из OPML",
+  "settings_button_update-cover-art": "Обновить обложки",
+  "settings_button_view-downloaded-episodes-directory": "Посмотреть папку загрузок",
+  "settings_button_view_config_directory": "Посмотреть папку настроек",
+  "settings_button_view-licenses": "Посмотреть лицензии",
+  "settings_button_view-github": "Перейти на репозиторий GitHub",
+  "settings_button_report-issue": "Сообщить о проблеме",
+  "settings_button_open-devtools": "Открыть инструменты разработчика",
+
+  "snackbar_button_undo": "Отменить действие",
+
+  "snackbar_added-to-queue": "‘$0’ добавлен в очередь воспроизведения.",
+  "snackbar_subscribed": "Вы подписались на ‘$0’.",
+  "snackbar_unsubscribed": "Вы отписались от ‘$0’.",
+  "snackbar_already-subscribed": "Вы уже подписаны на ‘$0’.",
+  "snackbar_download-start": "Начата загрузка ‘$0: $1’.",
+  "snackbar_download-done": "‘$0: $1’ загружен.",
+  "snackbar_download-removed": "‘$0: $1’ удалён из загруженного.",
+  "snackbar_download-error": "Ошибка при загрузке ‘$0: $1’.",
+  "snackbar_subscriptions-importing": "Подписки импортируются. Может потребоваться некоторое время.",
+  "snackbar_artwork-updated": "Обложка ‘$0’ обновлена.",
+  "snackbar_artwork-update-error": "Ошибка при обновлении обложки ‘$0’.",
+  "snackbar_batch-marked-as-played": "Эпизод $0 отмечен как воспроизведённый.",
+
+  "snackbar_error-media-network": "Ошибка сети при скачивании.",
+  "snackbar_error-media-decode": "Произошла ошибка при декодировании.",
+  "snackbar_error-media-unsupported": "Файл отсутствует либо формат не поддерживается.",
+  "snackbar_error-media-unknown": "Неизвестная ошибка при воспроизведении.",
+
+  "snackbar_error-podcast-detail": "Не удалось получить описание подкаста.",
+
+  "snackbar_setting-save-success": "Настройки сохранены.",
+  "snackbar_setting-save-success-restart": "Настройки будут изменены после перезапуска CPod.",
+  "snackbar_setting-save-fail": "Не удалось сохранить настройки.",
+
+  "snackbar_opml-no-podcasts": "У вас нет подкастов для экспорта.",
+
+  "snackbar_sync-login-failed": "Ошибка синхронизации: не удалось войти.",
+  "snackbar_sync-subs-pull-failed": "Ошибка синхронизации: не удалось скачать подписки.",
+  "snackbar_sync-subs-push-failed": "Ошибка синхронизации: не удалось загрузить новые подписки.",
+
+  "snackbar_no_internet": "Нет соединения с интернетом.",
+
+  "dialog_update-available_title": "Доступно обновление",
+  "dialog_update-available_body-stable": "Доступна новая версия CPod (v$0). Вы пользуетесь v$1. Скачать сейчас?",
+  "dialog_update-available_body-prerelease": "Новый пре-релиз CPod доступен для загрузки (v$0). Вы пользуетесь v$1. Скачать сейчас?",
+  "dialog_update-available_button_download": "Скачать",
+  "dialog_update-available_button_skip": "Пропустить эту версию",
+
+  "dialog_update-downloaded_title": "Обновление загружено",
+  "dialog_update-downloaded_body": "CPod v$0 загружен. Выйти и установить сейчас?",
+  "dialog_update-downloaded_button_view-changelog": "Посмотреть примечания к релизу",
+  "dialog_update-downloaded_button_install": "Выйти и установить",
+  "dialog_update-downloaded_button_cancel": "Отмена",
+
+  "dialog_download-remove-error_title": "Ошибка при удалении загруженного эпизода",
+  "dialog_download-remove-error_body": "CPod не смог удалить файл. Попробуйте снова или отправьтесь в папку CPod, удалите файл самостоятельно и перезапустите CPod.",
+
+  "dialog_opml-save-error_title": "Ошибка при сохранении OPML",
+  "dialog_opml-save-error_body": "CPod не смог сохранить файл OPML в выбранную папку.",
+
+  "placeholder_filter-episodes": "Найти эпизод...",
+  "placeholder_search-podcasts": "Посик: введите ключевое слово или адрес RSS",
+
+  "button_subscribe": "Посдписаться",
+  "button_subscribed": "Вы подписаны",
+  "button_unsubscribe": "Отписаться",
+
+  "button_view_podcast_details": "Подробности",
+
+  "button_mark-all-finished": "Пометить все как воспроизведённые",
+
+  "button_playback-play": "Пуск",
+  "button_playback-pause": "Пауза",
+  "button_playback_playpause": "Пуск/Пауза",
+  "button_playback-next": "Следующий эпизод",
+
+  "label_playback-speed": "Скорость воспроизведения",
+  "label_volume": "Громкость",
+  "label_search-results": "Результаты поиска",
+  "label_app-updates": "Обновления",
+  "label_download-prereleases": "Устанавливать пре-релизы при авто-обновлении",
+  "label_skip-amount-forward-short": "Перемотка вперёд (короткая)",
+  "label_skip-amount-forward": "(средняя)",
+  "label_skip-amount-forward-long": "(длинная)",
+  "label_skip-amount-backward-short": "Перемотка назад (короткая)",
+  "label_skip-amount-backward": "(средняя)",
+  "label_skip-amount-backward-long": "(длинная)",
+  "label_enable-waveform-visualization": "Включить визуализацию",
+  "label_playback": "Проигрывание",
+
+  "label_locale": "Язык",
+  "settings_locale_help": "Требуются переводчики! Помочь на репозитории GitHub.",
+
+  "label_sync": "Синхронизация",
+  "label_sync-enable": "Включить синхронизацию",
+  "label_sync-username": "Имя пользователя",
+  "label_sync-password": "Пароль",
+  "label_sync-deviceid": "ID устройства",
+  "settings_sync_help": "Синхронизация обеспечивается gpodder.net. Если у вас нет аккаунта, загеристрируйтесь и затем введите сюда данные учётной записи.",
+
+  "label_keyboard-shortcuts": "Горячие клавиши",
+  "label_global_media_keys": "Использовать общие настройки",
+  "label_keyboard-shortcuts_action_playpause": "Пуск/Пауза",
+  "label_keyboard-shortcuts_action_skip-backward-short": "Перемотка назад (короткая)",
+  "label_keyboard-shortcuts_action_skip-backward": "Перемотка назад (средняя)",
+  "label_keyboard-shortcuts_action_skip-backward-long": "Перемотка назад (длинная)",
+  "label_keyboard-shortcuts_action_skip-forward-short": "Перемотка вперёд (короткая)",
+  "label_keyboard-shortcuts_action_skip-forward": "Перемотка вперёд (средняя)",
+  "label_keyboard-shortcuts_action_skip-forward-long": "Перемотка вперёд (длинная)",
+  "label_keyboard-shortcuts_action_next": "Следующий эпизод",
+  "label_keyboard-shortcuts_action_speed-increase": "Увеличить скорость воспроизведения",
+  "label_keyboard-shortcuts_action_speed-decrease": "Уменьшить скорость воспроизведения",
+  "label_keyboard-shortcuts_action_volume-increase": "Увеличить громкость",
+  "label_keyboard-shortcuts_action_volume-decrease": "Уменьшить громкость",
+  "settings_keyboard-shortcuts_help": "Используется Mousetrap syntax",
+
+  "text_contributors": "Сделали свой вклад: ",
+
+  "label_appearance": "Внешний вид",
+  "label_dark_mode": "Тёмная тема",
+  "label_custom_scrollbar": "Другой дизайн полосы прокрутки",
+  "settings_custom_css_help": "Хинт: создайте файл style.css в папке настроек CPod'а для собственного стиля оформления.",
+
+  "label_home": "Домашняя страница",
+  "label_home-date-separator-interval": "Группировка эпизодов:",
+  "label_home-date-separator-interval_value_none": "Отключена",
+  "label_home-date-separator-interval_value_day": "По дням",
+  "label_home-date-separator-interval_value_month": "По месяцам",
+
+  "label_download_settings": "Загрузки",
+  "label_download_directory": "Папка загрузок",
+  "button_download_directory_browse": "Выбрать папку",
+
+  "label_queue": "Очередь воспроизведения",
+  "label_queue_always_remove_finished": "Не удалять эпизод из очереди до окончания воспроизведения",
+  "label_queue_auto_download": "Автоматически скачивать эпизоды из очереди",
+
+  "label_settings_other": "Другое",
+  "label_show_in_taskbar": "Показывать в трее",
+  "label_minimize_to_taskbar": "Сворачивать в трей",
+  "label_close_to_taskbar": "При закрытии сворачивать в трей",
+  "label_smooth_scrolling": "Плавная прокрутка",
+  "label_disable_update_cache": "Отключить кэширование при обновлении домашней страницы",
+
+  "text_queue-empty": "У вас нет эпизодов для воспроизведения.",
+  "text_load_failed": "Загрузка не удалась.",
+  "text_search_no_results": "Ничего не найдено.",
+
+  "welcome_heading": "Добро пожаловать в <strong>CPod</strong>",
+  "welcome_blurb": "Спасибо, что решили попробовать CPod. Программа ещё в разработке, в ней могут встречаться баги. Пожалуйста сообщайте об ошибках и предлагайте новые функции по ссылке <strong>Settings</strong> > <strong>Сообщить об ошибке</strong>. Удачи!",
+  "welcome_howto_explore": "Зайдите на страницу <strong>поиска новых подкастов</strong>",
+  "welcome_howto_home": "Новые эпизоды ваших подписок всегда на <strong>Домашней странице</strong>",
+  "welcome_howto_queue": "Наслаждайтесь выбранными эпизодами один за другим в вашей <strong>Очереди воспроизведения</strong>",
+  "welcome_howto_subscriptions": "Просматривайте ваши подписки и управляйте ими на странице <strong>Подписки</strong>",
+
+  "player-tab_description": "Описание",
+  "player-tab_chapters": "Эпизоды",
+
+  "progress_bar_downloading": "Скачивается ‘$0: $1’.",
+  "progress_bar_home_update": "Подгружаем новые эпизоды",
+  "progress_bar_copying_downloads": "Копируем загруженные эпизоды",
+  "progress_bar_deleting_old_downloads": "Удаляем загруженные эпизоды из старой папки",
+
+  "label_quit": "Выход",
+  "label_now_playing": "Сейчас играет: ",
+  "label_show_window": "Показать окно"
+}
